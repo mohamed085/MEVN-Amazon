@@ -11,7 +11,7 @@ exports.postAddNewProduct = async (req, res) => {
         let product = new Product();
         product.title = req.body.title;
         product.description = req.body.description;
-        product.photo = '/_nuxt/server/uploads/'+req.file.filename;
+        product.photo = '/_nuxt/_/server/uploads/'+req.file.filename;
         product.price = req.body.price;
         product.stockQuantity = req.body.stockQuantity;
 
