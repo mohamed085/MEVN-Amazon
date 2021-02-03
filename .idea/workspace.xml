@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f77b144-d650-45e7-aa5e-66b4d02f908b" name="Default Changelist" comment="" />
+    <list default="true" id="5f77b144-d650-45e7-aa5e-66b4d02f908b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/assets/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/components/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/components/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/layouts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/layouts/default.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/middleware/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/nuxt.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/pages/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/plugins/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/static/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/static/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/store/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +63,7 @@
       <workItem from="1612274113624" duration="4914000" />
       <workItem from="1612282340837" duration="10930000" />
       <workItem from="1612306708722" duration="4720000" />
+      <workItem from="1612312019564" duration="295000" />
     </task>
     <servers />
   </component>
