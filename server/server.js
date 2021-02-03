@@ -7,11 +7,14 @@ const path = require('path');
 const productRouter = require('./routes/product');
 const ownerRouter = require('./routes/owner');
 const categoryRouter = require('./routes/category');
+const cors = require('cors');
+
 
 dotenv.config();
 
 
 const app = express();
+app.use(cors());
 
 app.use('/images', express.static(path.join(__dirname, 'images')));
 

@@ -27,8 +27,7 @@
             <div class="text-center">
               <!-- Product image -->
               <a href="#" class="a-link-normal">
-                <!-- require('@/assets/' + prize.image_url) -->
-                <img :src="product.photo" class="img-fluid">
+                <img src="http://localhost:3002/uploads/1612357349353-amazonImg.jpg" class="img-fluid">
               </a>
 
               <!-- Product title -->
