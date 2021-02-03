@@ -8,9 +8,9 @@
         <div class="col-sm-8 col-8">
           <h1 class="a-size-large a-spacing-none a-text-normal">All Products</h1>
           <div class="a-spacing-large"></div>
-          <a href="#" class="a-button-buy-again margin-right-10">Add new product</a>
-          <a href="#" class="a-button-history margin-right-10">Add new category</a>
-          <a href="#" class="a-button-history margin-right-10">Add new Owner</a>
+          <a href="#" class="a-button-buy-again" style="margin-right: 5px;">Add new product</a>
+          <a href="#" class="a-button-history" style="margin-right: 5px;">Add new category</a>
+          <a href="#" class="a-button-history" style="margin-right: 2px;">Add new Owner</a>
         </div>
       </div>
     </div>
@@ -27,6 +27,7 @@
             <div class="text-center">
               <!-- Product image -->
               <a href="#" class="a-link-normal">
+<!--                <img src="../../server/uploads/" class="img-fluid">-->
                 <img :src="product.photo" class="img-fluid">
               </a>
 
@@ -75,7 +76,7 @@ export default {
   async asyncData({$axios}) {
     try {
       let response = await $axios.$get("http://localhost:3002/api/products");
-      console.log(response);
+      // console.log(response);
 
       return{
         products: response.products,

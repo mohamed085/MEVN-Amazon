@@ -10,13 +10,13 @@ router.post('/products', upload.single('photo'), productController.postAddNewPro
 router.get('/products', productController.getAllProduct);
 
 /** Get request --> Return Single Product */
-router.get('/products/:id', productController.getAllProduct);
+router.get('/products/:id', productController.getProduct);
 
 /** Put request --> Update Product */
-router.post('/products-edit/:id', productController.putProduct);
+router.put('/products/:id', productController.putProduct);
 
 /** Delete request --> Delete Product */
-router.get('/products-delete/:id', productController.deleteProduct);
+router.delete('/products/:id', productController.deleteProduct);
 
 
 module.exports = router;

@@ -7,6 +7,7 @@ exports.postAddNewCategory = async (req, res) => {
         category.type = req.body.type;
 
         await category.save();
+
         res.json({
             status: true,
             message: "Successfully add category"

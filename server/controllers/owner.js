@@ -7,7 +7,7 @@ exports.postAddNewOwner = async (req, res) => {
         let owner = new Owner();
         owner.name = req.body.name;
         owner.about = req.body.about;
-        owner.photo = req.file.filename;
+        owner.photo = '/_nuxt/_/server/uploads/'+req.file.filename;
 
         await owner.save();
         res.json({

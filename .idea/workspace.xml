@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c9f3fb6-5794-4013-9a6f-812382d66bd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/pages/category.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/pages/owner.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/pages/product.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/pages/products/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/controllers/category.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/controllers/owner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/controllers/product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/controllers/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/middlewares/upload-photo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/models/category.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/models/owner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/models/product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/models/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/routes/category.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/routes/owner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/routes/product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/routes/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/uploads/1612371154427-brad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/server/uploads/product-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/owner.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/owner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/owner.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/owner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612371154427-brad.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +60,9 @@
       <updated>1612369248294</updated>
       <workItem from="1612369283528" duration="2286000" />
       <workItem from="1612372537852" duration="3145000" />
-      <workItem from="1612376378609" duration="1059000" />
+      <workItem from="1612376378609" duration="8725000" />
+      <workItem from="1612388299435" duration="2541000" />
+      <workItem from="1612391317188" duration="3177000" />
     </task>
     <servers />
   </component>
