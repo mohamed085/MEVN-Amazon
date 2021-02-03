@@ -27,7 +27,7 @@
             <div class="text-center">
               <!-- Product image -->
               <a href="#" class="a-link-normal">
-                <img src="http://localhost:3002/uploads/1612357349353-amazonImg.jpg" class="img-fluid">
+                <img :src="product.photo" class="img-fluid">
               </a>
 
               <!-- Product title -->
@@ -75,10 +75,11 @@ export default {
   async asyncData({$axios}) {
     try {
       let response = await $axios.$get("http://localhost:3002/api/products");
-      console.log(response)
-      // console.log(response);
+      console.log(response);
+
       return{
         products: response.products,
+
       }
 
     } catch (err) {

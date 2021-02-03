@@ -2,14 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c9f3fb6-5794-4013-9a6f-812382d66bd4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/owner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middlewares/upload-photo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/owner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/owner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612357349353-amazonImg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612358431704-amazonImg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612363326540-walter_isaacson.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612363333115-walter_isaacson.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612363346612-brad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612363351310-brad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612364495222-brad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612364496147-brad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612364497549-brad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612364498378-brad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612364498875-brad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/uploads/1612364499540-brad.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +64,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Materials\MEVN\Amazon\admin" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,11 +77,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612369248294</updated>
-      <workItem from="1612369283528" duration="1243000" />
+      <workItem from="1612369283528" duration="2286000" />
+      <workItem from="1612372537852" duration="2741000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
