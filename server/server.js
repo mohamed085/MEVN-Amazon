@@ -4,17 +4,16 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const path = require('path');
-
 const productRouter = require('./routes/product');
 const ownerRouter = require('./routes/owner');
 const categoryRouter = require('./routes/category');
 
 dotenv.config();
 
+
 const app = express();
 
 app.use('/images', express.static(path.join(__dirname, 'images')));
-
 
 /** Middleware */
 app.use(morgan('dev'));

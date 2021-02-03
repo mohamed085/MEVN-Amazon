@@ -4,7 +4,7 @@ const productController = require('../controllers/product');
 const upload = require('../middlewares/upload-photo.js');
 
 /** Post request --> Create New Product */
-router.post('/products', upload.single("photo"), productController.postAddNewProduct);
+router.post('/products', upload.single('photo'), productController.postAddNewProduct);
 
 /** Get request --> Return All Products */
 router.get('/products', productController.getAllProduct);
@@ -13,7 +13,7 @@ router.get('/products', productController.getAllProduct);
 router.get('/products/:id', productController.getAllProduct);
 
 /** Put request --> Update Product */
-router.post('/products-edit/:id', upload.single("photo"), productController.putProduct);
+router.post('/products-edit/:id', productController.putProduct);
 
 /** Delete request --> Delete Product */
 router.get('/products-delete/:id', productController.deleteProduct);

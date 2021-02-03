@@ -6,18 +6,19 @@ const Product = require('../models/product.js');
 
 /** Create New Product */
 exports.postAddNewProduct = async (req, res) => {
+    console.log('req.file')
     try{
         let product = new Product();
         product.title = req.body.title;
         product.description = req.body.description;
-        product.photo = req.file.filename;
+        product.photo = req.file.path;
         product.price = req.body.price;
         product.stockQuantity = req.body.stockQuantity;
 
         await product.save();
         res.json({
             status: true,
-            message: "Successfully add product"
+            message: "Successfully add product",
         });
 
     }catch (err){
