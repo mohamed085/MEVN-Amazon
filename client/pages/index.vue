@@ -31,7 +31,7 @@
                     <div class="row">
                       <!-- image -->
                       <div class="col-sm-3 text-center">
-                        <a href="#">
+                        <a :href="`/products/`+product._id">
                           <img :src="product.photo" class="img-fluid">
 <!--                          <img src="../../server/uploads/steve_jobs.jpg" class="img-fluid">-->
                         </a>
