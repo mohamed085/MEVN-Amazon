@@ -13,7 +13,11 @@
           <FeaturedProduct></FeaturedProduct>
 
           <div class="mainResults">
-            <ul class="s-result-list">
+            <ul
+              v-for="product in products"
+              :key="product._id"
+              class="s-result-list"
+            >
               <li class="s-result-item celwidget">
                 <div class="s-item-container">
                   <!-- Best seller -->
@@ -28,7 +32,8 @@
                       <!-- image -->
                       <div class="col-sm-3 text-center">
                         <a href="#">
-                          <img src="../../server/uploads/product-1-1.jpg" class="img-fluid">
+                          <img :src="product.photo" class="img-fluid">
+<!--                          <img src="../../server/uploads/steve_jobs.jpg" class="img-fluid">-->
                         </a>
                       </div>
 
@@ -37,7 +42,7 @@
                           <!-- Title and Date -->
                           <a href="#" class="a-link-normal">
                             <h2 class="a-size-medium">
-                              Harry Potter
+                              {{ product.title }}
                               <span class="a-letter-space"></span>
                               <span class="a-letter-space"></span>
                               <span class="a-size-small a-color-secondary">Sep 3, 2010</span>
@@ -67,11 +72,11 @@
                             <!-- price -->
                             <div class="a-row a-spacing-none">
                               <a href="#" class="a-link-normal a-text-normal">
-                                <span class="a-offscreen">$99</span>
+                                <span class="a-offscreen">${{ product.price }}</span>
                                 <span class="a-color-base sx-zero-spacing">
                                 <span class="sx-price sx-price-large">
                                   <sup class="sx-price-currency">$</sup>
-                                  <span class="sx-price-whole">99</span>
+                                  <span class="sx-price-whole">{{ product.price }}</span>
                                   <span class="sx-price-fractional">00</span>
                                 </span>
                               </span>
@@ -124,6 +129,18 @@ export default {
   components: {
     FeaturedProduct
   },
+
+  async asyncData({ $axios }){
+    try{
+      let res = await $axios.$get('http://localhost:3002/api/products');
+      return{
+        products: res.products
+      }
+
+    }catch (e) {
+      console.log(e);
+    }
+  }
 
 }
 </script>

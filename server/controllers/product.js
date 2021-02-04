@@ -9,8 +9,8 @@ exports.postAddNewProduct = async (req, res) => {
     console.log('req.file')
     try{
         let product = new Product();
-        product.ownerID = req.body.ownerID;
-        product.categoryID = req.body.categoryID;
+        product.owner = req.body.ownerID;
+        product.category = req.body.categoryID;
         product.title = req.body.title;
         product.description = req.body.description;
         product.photo = '/_nuxt/_/server/uploads/'+req.file.filename;
@@ -34,7 +34,7 @@ exports.postAddNewProduct = async (req, res) => {
 /** Display All Products */
 exports.getAllProduct = async (req, res) => {
     try{
-        let products = await Product.find();
+        let products = await Product.find().populate('owner category').exec();
         res.json({
             status: true,
             products: products,
