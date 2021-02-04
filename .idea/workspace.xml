@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c9f3fb6-5794-4013-9a6f-812382d66bd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/components/FeaturedProduct.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/components/Footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/components/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/components/Search.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-light-300.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-light-300.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-light-300.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-light-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-light-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/css/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/font/amazon-ember-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/font/amazon-ember-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/font/amazon-ember-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/font/amazon-ember-regular-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/amazonImg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/audiblelogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/cartRecent4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/cart_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/gift.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/globalImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/icons2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/icons3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/icons4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/imageUpload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/logo-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/logo-black1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/navShipping.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/placeHeadernav.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/readyondevice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/socialshare.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/spcBody.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/static/img/visa.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/nuxt.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +56,7 @@
       <workItem from="1612372537852" duration="3145000" />
       <workItem from="1612376378609" duration="8725000" />
       <workItem from="1612388299435" duration="2541000" />
-      <workItem from="1612391317188" duration="15529000" />
+      <workItem from="1612391317188" duration="19403000" />
     </task>
     <servers />
   </component>
