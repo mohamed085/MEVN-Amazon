@@ -50,12 +50,10 @@ exports.getAllProduct = async (req, res) => {
 
 /** Display Single Product by ProductId */
 exports.getProduct = async (req, res) => {
-    const productId = req.params.id;
     try{
         let product = await Product.findOne({
-            _id: productId
+            _id: req.params.id
         });
-
         res.json({
             status: true,
             product: product,

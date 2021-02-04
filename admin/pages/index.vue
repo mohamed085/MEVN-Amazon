@@ -8,9 +8,11 @@
         <div class="col-sm-8 col-8">
           <h1 class="a-size-large a-spacing-none a-text-normal">All Products</h1>
           <div class="a-spacing-large"></div>
-          <a href="#" class="a-button-buy-again" style="margin-right: 5px;">Add new product</a>
-          <a href="#" class="a-button-history" style="margin-right: 5px;">Add new category</a>
-          <a href="#" class="a-button-history" style="margin-right: 2px;">Add new Owner</a>
+
+          <nuxt-link to="/products" class="a-button-buy-again" style="margin-right: 5px;">Add new product</nuxt-link>
+          <nuxt-link to="/owner" class="a-button-history" style="margin-right: 5px;">Add new owner</nuxt-link>
+          <nuxt-link to="/category" class="a-button-history" style="margin-right: 5px;">Add new category</nuxt-link>
+
         </div>
       </div>
     </div>
@@ -60,8 +62,13 @@
               </div>
 
               <!-- Product buttons -->
-              <a href="#" class="a-button-history margin-right-10">Update</a>
-              <a href="#" class="a-button-history margin-right-10">Delete</a>
+              <nuxt-link :to="`/products/${product._id}`" class="a-button-history margin-right-10">Update</nuxt-link>
+              <a
+                @click="onDeleteProduct(product._id, index)"
+                class="a-button-history margin-right-10"
+              >
+                Delete
+              </a>
             </div>
           </div>
         </div>
@@ -85,7 +92,23 @@ export default {
 
     } catch (err) {
     }
+  },
+
+  methods: {
+    async onDeleteProduct(id, index){
+      try{
+        let res = await this.$axios.$delete(`http://localhost:3002/api/products/${id}`)
+        if (res.status){
+          this.products.splice(index, 1);
+        }
+
+      }catch (e) {
+        console.log(e)
+      }
+    }
   }
+
+
 }
 </script>
 
